@@ -1,5 +1,6 @@
 /deep/html {
-  height: 100%;
+  height: auto;
+  min-height: 100%;
   background-image: linear-gradient(black, #263238);
 }
 
@@ -18,4 +19,7 @@ h2 {
   margin: auto;
   width: 85%;
   text-align: center;
+}
+.big-cover-image {
+  width: 80%;
 }
