@@ -1,0 +1,46 @@
+/deep/html {
+  height: 100%;
+  background-image: linear-gradient(black, #263238);
+}
+h1,
+h2,
+h3 {
+  font-variant: small-caps;
+  color: #00acc1;
+}
+div {
+  color: #00acc1;
+}
+img {
+  width: 230px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+.main-container {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+i {
+  color: #00acc1;
+}
+.para {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  padding: 1em;
+  vertical-align: middle;
+  bottom: 0.6em;
+}
+.small-gap {
+  padding-left: 1em;
+}
+.social-icon:hover {
+  color: whitesmoke;
+}
+.social-icon {
+  cursor: pointer;
+}
