@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { ProjektitComponent } from './projektit/projektit.component';
 import { ProfileComponent } from './profile/profile.component';
+import { LintukotoComponent } from './lintukoto/lintukoto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     ProjektitComponent,
-    ProfileComponent
+    ProfileComponent,
+    LintukotoComponent
   ],
   imports: [
     BrowserModule,
