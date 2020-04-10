@@ -10,6 +10,10 @@ h3,
 p {
   color: #00acc1;
 }
+h2 {
+  margin-top: 1.6em;
+  margin-bottom: 0.2em;
+}
 
 h1,
 h2 {
@@ -22,4 +26,57 @@ h2 {
 }
 .big-cover-image {
   width: 80%;
+}
+
+.tech-logo {
+  display: inline-block;
+  height: 100%;
+  width: 100px;
+  vertical-align: middle;
+  margin: 0 0.5em;
+}
+
+.tech-logo2 {
+  display: inline-block;
+  height: 100%;
+  width: 40px;
+  vertical-align: middle;
+  margin: 0 0.5em;
+}
+.tech-logo3 {
+  display: inline-block;
+  height: 100%;
+  width: 120px;
+  vertical-align: middle;
+  margin: 0 0.5em;
+}
+
+.tech-images-holder {
+  display: block;
+  height: 100%;
+  width: 97%;
+  margin: 0 auto;
+}
+#express {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: thin 100;
+  font-size: xx-large;
+  display: inline-block;
+  margin: 0 0.4em;
+}
+ul {
+  width: 60%;
+  text-align: left;
+  margin: 0 auto;
+}
+li {
+  list-style: disc;
+  color: #00acc1;
+}
+::selection {
+  background: #1d7382; /* WebKit/Blink Selaimet */
+}
+::-moz-selection {
+  background: #1d7382; /* Gecko Selaimet */
 }

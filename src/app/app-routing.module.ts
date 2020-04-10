@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: "projektit", component: ProjektitComponent },
   { path: "profile", component: ProfileComponent },
   { path: "lintukoto", component: LintukotoComponent },
+  { path: "", component: ProfileComponent },
 ];
 
 @NgModule({
