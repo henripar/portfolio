@@ -1,6 +1,47 @@
 <div class="main-container">
   <h1>Lintukoto</h1>
   <img class="big-cover-image" src="../../assets/pskuva.png" alt="" />
+  <ngb-carousel>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img
+          class="big-cover-image"
+          src="../../assets/kirjautumissivushot.png"
+          alt="Random first slide"
+        />
+      </div>
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img
+          class="big-cover-image"
+          src="../../assets/kalenteri.png.png"
+          alt="Random second slide"
+        />
+      </div>
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img
+          class="big-cover-image"
+          src="../../assets/aktiiviset.png.png"
+          alt="Random third slide"
+        />
+      </div>
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
   <h2>Teknologiat</h2>
   <div class="tech-images-holder">
     <img class="tech-logo" src="../../assets/angular.png" alt="" />
@@ -51,14 +92,19 @@
   <h2>Mitä opin?</h2>
   <p>Lorem ipsum dolor sit.</p>
   <h2>Mitä parannettavaa jäi?</h2>
-  <p>Lorem ipsum dolor sit.</p>
+  <p>
+    Tiedostojen rakenne ja nimeämiset olisi voinut tehdä selkeämmäksi. Esim. CSS
+    tiedostoissa ei tällä hetkellä ole juurikaan loogista rakennetta. Niihin
+    asiat olisi voinut järjestellä selkeämmin.
+  </p>
   <h2>Tarkempi katsaus tekemiini toiminnallisuuksiin</h2>
   <h3>Autenktikaatio</h3>
 
-  <video width="700" controls>
-    <source src="../../assets/Tehtavakehu.mp4" type="video/mp4" />
+  <video width="80%" controls>
+    <source src="../../assets/sisaankirjautuminenaut.mp4" type="video/mp4" />
     Your browser does not support HTML5 video.
   </video>
+
   <h3>Kalenterimerkintöjen tallennus kantaan</h3>
   <h3>Muistiinpanojen muokkaus</h3>
   <p>Lorem ipsum dolor sit.</p>
