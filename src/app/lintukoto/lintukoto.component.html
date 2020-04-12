@@ -1,8 +1,9 @@
 <div class="main-container">
   <h1>Lintukoto</h1>
-  <img class="big-cover-image" src="../../assets/pskuva.png" alt="" />
-  <ngb-carousel>
+  <ngb-carousel [interval]="20000">
+    <p style="display: none;" ngbAutofocus>lol</p>
     <ng-template ngbSlide>
+      <p style="display: none;" ngbAutofocus>lol</p>
       <div class="picsum-img-wrapper">
         <img
           class="big-cover-image"
@@ -10,35 +11,32 @@
           alt="Random first slide"
         />
       </div>
-      <div class="carousel-caption">
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </div>
     </ng-template>
     <ng-template ngbSlide>
       <div class="picsum-img-wrapper">
         <img
           class="big-cover-image"
-          src="../../assets/kalenteri.png.png"
+          src="../../assets/kalenteri.png"
           alt="Random second slide"
         />
       </div>
-      <div class="carousel-caption">
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img
+          class="big-cover-image"
+          src="../../assets/aktiiviset.png"
+          alt="Random third slide"
+        />
       </div>
     </ng-template>
     <ng-template ngbSlide>
       <div class="picsum-img-wrapper">
         <img
           class="big-cover-image"
-          src="../../assets/aktiiviset.png.png"
+          src="../../assets/suoritetut.png"
           alt="Random third slide"
         />
-      </div>
-      <div class="carousel-caption">
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
       </div>
     </ng-template>
   </ngb-carousel>
@@ -64,23 +62,22 @@
     opiskelijoiden arkea tarjoamalla työkaluja ajanhallintaan. Fyysisten
     toteutettavien tavoitteiden lisäksi projektin oppimistavoitteena oli oppia
     SCRUM käytänteitä, sekä projektin hallintaa ja ryhmätyötaitoja. Lisäksi
-    koodareiden oppimistavoitteena oli syventää osaamista Angular, MongoDB,
-    NodeJS ja Express teknologioissa. Mielestäni näissä tavoitteissa
-    onnistuttiin hyivn. Tämä oli myös meille kaikille ensimmäinen isompi web-
-    projekti ja ensimmäinen projekti, jossa työskenteltiin mainituilla
-    teknologioilla.
+    omana oppimistavoitteenani oli syventää osaamista Angular, MongoDB, NodeJS
+    ja Express teknologioissa. Mielestäni näissä tavoitteissa onnistuttiin
+    hyivn. Tämä oli myös meille kaikille ensimmäinen isompi web- projekti ja
+    ensimmäinen projekti, jossa työskenteltiin mainituilla teknologioilla.
   </p>
 
   <h2>Oma rooli</h2>
   <p>
     Itse toimin projektissa päätoimisena koodarina. Olin mukana tekemässä
-    päätökisä teknologia valintojen suhteen ja vastasin koko backendin
+    päätöksiä teknologia valintojen suhteen ja vastasin koko backendin
     toteutuksesta. Lisäksi tein myös frontendin niihin toimimintoihin, jotka
     vaativat yhteyttä tietokantaan. Tein myös projektin ensimmäiset pari viikkoa
     pelkkää front endiä. Seuraavassa listassa on muutamia toiminnallisuuksia,
     joita koodasin projektiin.
   </p>
-  <div style="width: 80%; display: block; margin: 0 auto;">
+  <div style="width: 100%; display: block; margin: 0 auto;">
     <ul>
       <li>Sisäänkirjautuminen, rekisteröityminen ja autenktikaatio</li>
       <li>Kalenterimerkintöjen tallentuminen kantaan ja hakeminen kannsta</li>
@@ -90,7 +87,19 @@
     </ul>
   </div>
   <h2>Mitä opin?</h2>
-  <p>Lorem ipsum dolor sit.</p>
+  <ul>
+    <li>Työskentely produktiossa</li>
+    <ul>
+      <li>Etätyöskentely</li>
+    </ul>
+    <li>Teknologiat</li>
+    <ul>
+      <li>Angular</li>
+      <li>Nodejs/Express</li>
+      <li>MongoDB</li>
+      <li>Syncfusion Angular scheduler</li>
+    </ul>
+  </ul>
   <h2>Mitä parannettavaa jäi?</h2>
   <p>
     Tiedostojen rakenne ja nimeämiset olisi voinut tehdä selkeämmäksi. Esim. CSS
@@ -100,7 +109,7 @@
   <h2>Tarkempi katsaus tekemiini toiminnallisuuksiin</h2>
   <h3>Autenktikaatio</h3>
 
-  <video width="80%" controls>
+  <video width="75%" controls>
     <source src="../../assets/sisaankirjautuminenaut.mp4" type="video/mp4" />
     Your browser does not support HTML5 video.
   </video>

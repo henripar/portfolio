@@ -1,4 +1,4 @@
-/deep/html {
+/deep/html body {
   height: auto;
   min-height: 100%;
   background-image: linear-gradient(black, #263238);
@@ -27,6 +27,7 @@ img {
   margin: 0 auto;
   text-align: center;
   padding-bottom: 2em;
+  min-height: 100vh;
 }
 
 i {
@@ -38,8 +39,9 @@ i {
   margin: auto;
   padding: 1em;
   vertical-align: middle;
-  bottom: 0.6em;
+  bottom: 0.5em;
 }
+
 .small-gap {
   padding-left: 1em;
 }
@@ -51,4 +53,13 @@ i {
 }
 .profile-row {
   width: 100%;
+}
+
+@media (max-width: 390px) {
+  .main-container {
+    width: 90%;
+  }
+  .fas {
+    display: block;
+  }
 }

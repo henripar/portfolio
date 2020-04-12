@@ -1,0 +1,63 @@
+/deep/ html body {
+  height: auto !important;
+  min-height: 100% !important;
+  background-image: linear-gradient(black, #263238) !important;
+}
+
+:focus {
+  outline: none;
+}
+
+.main-container {
+  margin: auto;
+  width: 85%;
+  text-align: center;
+  min-height: 100vh;
+}
+.big-cover-image {
+  width: 80%;
+}
+.picstocker-link {
+  display: inline;
+  text-align: center;
+}
+#linkki-div {
+  margin: 0 auto;
+  width: 200px;
+  margin-bottom: 1em;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #00acc1;
+}
+h2 {
+  margin-top: 1.6em;
+  margin-bottom: 0.2em;
+}
+
+h1,
+h2 {
+  font-variant: small-caps;
+}
+a {
+  color: whitesmoke;
+}
+a:hover {
+  color: #00acc1;
+  text-decoration: none;
+}
+
+#picstocker-logo {
+  max-width: 240px;
+}
+@media (max-width: 415px) {
+  video {
+    width: 100%;
+  }
+  .main-container {
+    width: 100vw;
+  }
+}
