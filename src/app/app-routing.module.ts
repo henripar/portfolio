@@ -4,6 +4,7 @@ import { ProjektitComponent } from "./projektit/projektit.component";
 import { ProfileComponent } from "./profile/profile.component";
 import { LintukotoComponent } from "./lintukoto/lintukoto.component";
 import { PictockerComponent } from "./pictocker/pictocker.component";
+import { KurssitComponent } from "./kurssit/kurssit.component";
 
 const routes: Routes = [
   { path: "projektit", component: ProjektitComponent },
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: "lintukoto", component: LintukotoComponent },
   { path: "", component: ProfileComponent },
   { path: "picstocker", component: PictockerComponent },
+  { path: "kurssit", component: KurssitComponent },
 ];
 
 @NgModule({

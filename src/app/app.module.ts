@@ -9,6 +9,7 @@ import { ProjektitComponent } from "./projektit/projektit.component";
 import { ProfileComponent } from "./profile/profile.component";
 import { LintukotoComponent } from "./lintukoto/lintukoto.component";
 import { PictockerComponent } from './pictocker/pictocker.component';
+import { KurssitComponent } from './kurssit/kurssit.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { PictockerComponent } from './pictocker/pictocker.component';
     ProfileComponent,
     LintukotoComponent,
     PictockerComponent,
+    KurssitComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

@@ -12,8 +12,6 @@
 }
 
 h1,
-h2,
-h3,
 p {
   color: #00acc1;
 }
@@ -25,6 +23,12 @@ h2 {
 h1,
 h2 {
   font-variant: small-caps;
+}
+h2,
+h3,
+h4,
+h5 {
+  color: whitesmoke;
 }
 .main-container {
   margin: auto;
