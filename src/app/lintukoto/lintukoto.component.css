@@ -7,6 +7,18 @@
   color: blue !important;
 }
 
+ngb-carousel {
+  margin-top: 0.8em;
+}
+
+a {
+  color: whitesmoke;
+}
+a:hover {
+  color: #00acc1;
+  text-decoration: none;
+}
+
 ::ng-deep .carousel-indicators li {
   background-color: black;
 }
@@ -97,6 +109,39 @@ li {
   margin: 0 auto;
   width: 100%;
 }
+.otsikkologo {
+  height: 50px;
+  padding-left: 0.3em;
+}
+
+.otsikkologo2 {
+  height: 80px;
+}
+
+.angular {
+  width: 75%;
+  text-align: center;
+  margin: 1em auto;
+  display: flex;
+  text-align: center;
+}
+
+.osaamislista {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+.osaamisdiv {
+  display: inline;
+  padding: 2em;
+  margin: 1em auto;
+  border-radius: 25px;
+  box-shadow: inset 0 0 30px grey;
+}
+
+.osaamislista li {
+  list-style-type: none;
+}
 
 ::selection {
   background: #1d7382; /* WebKit/Blink Selaimet */
@@ -104,6 +149,7 @@ li {
 ::-moz-selection {
   background: #1d7382; /* Gecko Selaimet */
 }
+
 @media (max-width: 845px) {
   ul {
     width: 90%;

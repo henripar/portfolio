@@ -1,5 +1,8 @@
 <div class="main-container">
   <h1>Lintukoto</h1>
+  <a href="http://lintukoto.s3-website-us-east-1.amazonaws.com/"
+    >http://lintukoto.s3-website-us-east-1.amazonaws.com/</a
+  >
   <ngb-carousel [interval]="20000">
     <p style="display: none;" ngbAutofocus>lol</p>
     <ng-template ngbSlide>
@@ -70,7 +73,7 @@
 
   <h2>Oma rooli</h2>
   <p>
-    Itse toimin projektissa päätoimisena koodarina. Olin mukana tekemässä
+    Itse toimin projektissa päätoimisena koodarina. Olin mm. mukana tekemässä
     päätöksiä teknologia valintojen suhteen ja vastasin koko backendin
     toteutuksesta. Lisäksi tein myös frontendin niihin toimimintoihin, jotka
     vaativat yhteyttä tietokantaan. Tein myös projektin ensimmäiset pari viikkoa
@@ -84,6 +87,7 @@
       <li>Muistiinpanojen tallentaminen, muokkaus, ja poisto</li>
       <li>Tehtävien tallentaminen ja hakeminen</li>
       <li>Tietokantarakenteen suunnittelu ja toteutus</li>
+      <li>Sovelluksen julkaisu (AWS)</li>
     </ul>
   </div>
   <h2>Mitä opin?</h2>
@@ -128,17 +132,17 @@
   <h3>Itseohjautuva oppiminen ja ongelmien ratkaiseminen</h3>
   <p>
     Kun projektiin lähdettiin, olimme kaikki noviiseja web sovelluskehityksessä,
-    ja osasimme vain perusteet angularista, sekä kokemus nodejs, express ja
-    mongodb teknologioissa oli hyvin rajallista eli opittavaa oli paljon. Tämä
-    tarjosi mahdollissuden kehittää omaa osaamistani ja oppia uutta. Osaamista
-    tuli kehitettyä aina sitä mukaa kun projekti vaati jonkin uuden asian
-    osaamista. Projektin alkuvaiheessa syvänsin osaamista Angularissa, sekä
-    opettelin projektimme kalenteriin tarvittavaa SyncFusion Angular Scheduler
-    komponentin integrointia ja käyttöä Syncfusionin dokumentaatiosta. Sen
-    jälkeen otin itselle uutena asiana haltuun Express frameworkin ja MongoDB:n.
-    Sen jälkeen opettelin tietokannan hallintaan käytettävää mongoose kirjastoa.
-    Se on ns. ODM eli Object Data Modelling kirjasto, joka helpottaa MongoDB
-    tietokannan hallintaa.
+    ja osasimme vain perusteet angularista. Kokemus nodejs, express ja mongodb
+    teknologioissa oli hyvin rajallista eli opittavaa oli paljon. Tämä tarjosi
+    mahdollissuden kehittää omaa osaamistani ja oppia uutta. Osaamista tuli
+    kehitettyä aina sitä mukaa kun projekti vaati jonkin uuden asian osaamista.
+    Projektin alkuvaiheessa syvänsin osaamista Angularissa, sekä opettelin
+    projektimme kalenteriin tarvittavaa SyncFusion Angular Scheduler komponentin
+    integrointia ja käyttöä Syncfusionin dokumentaatiosta. Sen jälkeen otin
+    itselle uutena asiana haltuun Express frameworkin ja MongoDB:n. Sen jälkeen
+    opettelin tietokannan hallintaan käytettävää mongoose kirjastoa. Se on ns.
+    ODM eli Object Data Modelling kirjasto, joka helpottaa MongoDB tietokannan
+    hallintaa.
   </p>
   <p>
     Kehtystyön aikana on tullut vastaan myös monia ongelmia. Koen, että oma
@@ -170,19 +174,118 @@
     syventää ja testata omaa osaamista.
   </p>
 
-  <li>Teknologiat</li>
-  <ul>
-    <li>Angular</li>
-    <li>Nodejs/Express</li>
-    <li>MongoDB</li>
-    <li>Syncfusion Angular scheduler</li>
-  </ul>
+  <h3>Teknologiat</h3>
+
+  <h4>
+    Angular
+    <img src="../assets/angular.png" alt="Angular logo" class="otsikkologo" />
+  </h4>
+  <div style="display: flex; text-align: center;" class="angular">
+    <div
+      style="
+        display: inline;
+        padding: 2em;
+        margin: 1em auto;
+        border-radius: 25px;
+        box-shadow: inset 0 0 30px grey;
+      "
+    >
+      <h5>Syvennetty osaaminen</h5>
+      <ul class="osaamislista">
+        <li>Routing</li>
+        <li>Servicet</li>
+        <li>Direktiivit</li>
+        <li>Angular Forms</li>
+        <li>Komponenttien välinen kommunikointi</li>
+        <li>HTML, CSS, Typescript</li>
+      </ul>
+    </div>
+    <div
+      style="
+        display: inline;
+        padding: 2em;
+        margin: 1em auto;
+        border-radius: 25px;
+        box-shadow: inset 0 0 30px grey;
+      "
+    >
+      <h5>Uusi hankittu osaaminen</h5>
+      <ul class="osaamislista">
+        <li>HTTP pyynnöt</li>
+        <li>Autentikaatio ja authGuard</li>
+        <li>Lomakkeiden validointi</li>
+        <li>Pipes</li>
+        <li>Environment variables</li>
+      </ul>
+    </div>
+  </div>
+  <h4 style="font: Roboto, sans-serif;">
+    express &&
+    <img
+      src="../../assets/nodejs-new-pantone-white.png"
+      alt=""
+      class="otsikkologo"
+    />
+  </h4>
+  <div class="angular">
+    <div class="osaamisdiv">
+      <h5>Syvennetty osaaminen</h5>
+      <ul class="osaamislista">
+        <li>Express perusteet</li>
+        <li>MVC arkkitehtuuri</li>
+        <li>Javascript</li>
+      </ul>
+    </div>
+    <div class="osaamisdiv">
+      <h5>Hankittu uusi osaaminen</h5>
+      <ul class="osaamislista">
+        <li>
+          Autentikaatio
+        </li>
+        <li>JWT & bcrypt</li>
+        <li>CRUD toiminnot & tietokannan kanssa kommunikointi</li>
+      </ul>
+    </div>
+  </div>
+  <img
+    src="../../assets/MongoDark.png"
+    alt="MongoDB logo"
+    class="otsikkologo2"
+  />
+  <div class="angular">
+    <div class="osaamisdiv">
+      <h4>Hankittu uusi osaaminen</h4>
+      <ul class="osaamislista">
+        <li>MongoDB perusteet</li>
+        <li>mongoose</li>
+        <li>MongoDB Atlas</li>
+        <li>Dokumenttien lisäys, muokkaus ja poisto</li>
+      </ul>
+    </div>
+  </div>
+  <img
+    src="../../assets/Git-Logo-White.png"
+    alt="Git logo"
+    class="otsikkologo"
+  />
+  <div class="angular">
+    <div class="osaamisdiv">
+      <h4>Hankittu uusi osaaminen</h4>
+      <ul class="osaamislista">
+        <li>Githubin käyttö</li>
+        <li>git terminaalikomennot</li>
+        <li>Zenhubin käyttö</li>
+      </ul>
+    </div>
+  </div>
+
   <h2>Mitä parannettavaa jäi?</h2>
   <p>
     Tiedostojen rakenne ja nimeämiset olisi voinut tehdä selkeämmäksi. Esim. CSS
     tiedostoissa ei tällä hetkellä ole juurikaan loogista rakennetta. Niihin
     asiat olisi voinut järjestellä selkeämmin.
   </p>
+
   <h2>Tarkempi katsaus tekemiini toiminnallisuuksiin</h2>
   <h3>Autenktikaatio</h3>
 
@@ -194,4 +297,6 @@
   <h3>Kalenterimerkintöjen tallennus kantaan</h3>
   <h3>Muistiinpanojen muokkaus</h3>
   <p>Lorem ipsum dolor sit.</p>
+  <h2>Reflektio</h2>
+  <p>Lorem ipsum dolor sit amet.</p>
 </div>
