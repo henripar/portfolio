@@ -165,4 +165,12 @@ li {
   video {
     width: 100%;
   }
+  .angular {
+    display: block;
+  }
+
+  .osaamisdiv {
+    display: block !important;
+    width: 88%;
+  }
 }

@@ -30,3 +30,20 @@ a {
 a:hover {
   color: #00acc1;
 }
+
+@media screen and (max-width: 650px) {
+  .main-container {
+    display: block;
+  }
+  .main-container div {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.5em;
+  }
+  #social {
+    padding-top: 1em;
+    margin-left: 0;
+    padding-bottom: 2em;
+  }
+}
