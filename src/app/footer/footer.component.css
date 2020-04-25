@@ -1,0 +1,49 @@
+.main-container {
+  background-color: black;
+  color: #00acc1;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+}
+h1,
+h2 {
+  font-variant: small-caps;
+}
+.main-container div {
+  display: inline;
+  padding-top: 4.5em;
+}
+
+#social {
+  margin-left: 2em;
+  justify-content: center;
+  text-align: center;
+}
+a {
+  display: inline-table;
+  width: 32px;
+  margin: 0.5em 1em;
+  color: whitesmoke;
+}
+a:hover {
+  color: #00acc1;
+}
+
+@media screen and (max-width: 650px) {
+  .main-container {
+    display: block;
+  }
+  .main-container div {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.5em;
+  }
+  #social {
+    padding-top: 1em;
+    margin-left: 0;
+    padding-bottom: 2em;
+  }
+}
