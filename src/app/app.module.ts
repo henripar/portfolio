@@ -10,6 +10,7 @@ import { ProfileComponent } from "./profile/profile.component";
 import { LintukotoComponent } from "./lintukoto/lintukoto.component";
 import { PictockerComponent } from './pictocker/pictocker.component';
 import { KurssitComponent } from './kurssit/kurssit.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { KurssitComponent } from './kurssit/kurssit.component';
     LintukotoComponent,
     PictockerComponent,
     KurssitComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
