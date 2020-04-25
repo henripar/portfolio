@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { environment } from "../../environments/environment";
 
 @Component({
   selector: "app-lintukoto",
@@ -6,6 +7,8 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./lintukoto.component.css"],
 })
 export class LintukotoComponent implements OnInit {
+  url = environment.url;
+
   constructor() {}
 
   ngOnInit() {}

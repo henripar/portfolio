@@ -10,7 +10,7 @@
       <div class="picsum-img-wrapper">
         <img
           class="big-cover-image"
-          src="../../assets/kirjautumissivushot.png"
+          src="{{ url }}assets/kirjautumissivushot.png"
           alt="Random first slide"
         />
       </div>
@@ -19,7 +19,7 @@
       <div class="picsum-img-wrapper">
         <img
           class="big-cover-image"
-          src="../../assets/kalenteri.png"
+          src="{{ url }}assets/kalenteri.png"
           alt="Random second slide"
         />
       </div>
@@ -28,7 +28,7 @@
       <div class="picsum-img-wrapper">
         <img
           class="big-cover-image"
-          src="../../assets/aktiiviset.png"
+          src="{{ url }}assets/aktiiviset.png"
           alt="Random third slide"
         />
       </div>
@@ -37,7 +37,7 @@
       <div class="picsum-img-wrapper">
         <img
           class="big-cover-image"
-          src="../../assets/suoritetut.png"
+          src="{{ url }}assets/suoritetut.png"
           alt="Random third slide"
         />
       </div>
@@ -45,34 +45,34 @@
   </ngb-carousel>
   <h2>Teknologiat</h2>
   <div class="tech-images-holder">
-    <img class="tech-logo" src="../../assets/angular.png" alt="" />
+    <img class="tech-logo" src="{{ url }}assets/angular.png" alt="" />
     <img
       class="tech-logo"
-      src="../../assets/nodejs-new-pantone-white.png"
+      src="{{ url }}assets/nodejs-new-pantone-white.png"
       alt=""
     />
     <h3 id="express">express</h3>
-    <img class="tech-logo" src="../../assets/MongoDark.png" alt="" />
+    <img class="tech-logo" src="{{ url }}assets/MongoDark.png" alt="" />
     <div>
       <img
         class="tech-logo2"
-        src="../../assets/ngbootstrap.png"
+        src="{{ url }}assets/ngbootstrap.png"
         alt="ng-bootstrap logo"
       />
       <img
         class="tech-logo2"
-        src="../../assets/bootstrap-solid.svg"
+        src="{{ url }}assets/bootstrap-solid.svg"
         alt="bootstraplogo"
       />
       <img
         class="tech-logo3"
-        src="../../assets/mongoose2.png"
+        src="{{ url }}assets/mongoose2.png"
         alt="mongoose logo"
       />
       <img
         style="background-color: whitesmoke;"
         class="tech-logo3"
-        src="../../assets/Syncfusion_Logo_Image.png"
+        src="{{ url }}assets/Syncfusion_Logo_Image.png"
         alt="Syncfuison logo"
       />
     </div>
@@ -196,7 +196,11 @@
 
   <h4>
     Angular
-    <img src="../assets/angular.png" alt="Angular logo" class="otsikkologo" />
+    <img
+      src="{{ url }}assets/angular.png"
+      alt="Angular logo"
+      class="otsikkologo"
+    />
   </h4>
   <div class="angular">
     <div class="osaamisdiv">
@@ -224,7 +228,7 @@
   <h4 style="font: Roboto, sans-serif;">
     express &&
     <img
-      src="../../assets/nodejs-new-pantone-white.png"
+      src="{{ url }}assets/nodejs-new-pantone-white.png"
       alt=""
       class="otsikkologo"
     />
@@ -250,7 +254,7 @@
     </div>
   </div>
   <img
-    src="../../assets/MongoDark2.png"
+    src="{{ url }}assets/MongoDark2.png"
     alt="MongoDB logo"
     class="otsikkologo2"
   />
@@ -266,7 +270,7 @@
     </div>
   </div>
   <img
-    src="../../assets/Git-Logo-White.png"
+    src="{{ url }}assets/Git-Logo-White.png"
     alt="Git logo"
     class="otsikkologo"
   />
@@ -292,14 +296,14 @@
   <h3>Autenktikaatio</h3>
 
   <video width="75%" controls style="margin-bottom: 1em;">
-    <source src="../../assets/sisaankirjautuminenaut.mp4" type="video/mp4" />
+    <source src="{{ url }}assets/sisaankirjautuminenaut.mp4" type="video/mp4" />
     Your browser does not support HTML5 video.
   </video>
 
   <h3>Muistiinpanojen lisäys, muokkaus & poisto</h3>
   <video width="75%" controls>
     <source
-      src="../../assets/Muistiinpanonlisaysuokkauspoisto.mp4"
+      src="{{ url }}assets/Muistiinpanonlisaysuokkauspoisto.mp4"
       type="video/mp4"
     />
     Your browser does not support HTML5 video.

@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import { environment } from "../../environments/environment";
 
 @Component({
-  selector: 'app-pictocker',
-  templateUrl: './pictocker.component.html',
-  styleUrls: ['./pictocker.component.css']
+  selector: "app-pictocker",
+  templateUrl: "./pictocker.component.html",
+  styleUrls: ["./pictocker.component.css"],
 })
 export class PictockerComponent implements OnInit {
+  url = environment.url;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
