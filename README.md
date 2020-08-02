@@ -3,7 +3,7 @@
 Henkilökohtaisen portfolion repository.
 Portfolio löytyy osoitteesta:
 
-https://henripar.github.io/portfolio/ 
+https://henriparviainen.com
 
 
 ## Sisältö
